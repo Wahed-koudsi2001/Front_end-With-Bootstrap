@@ -1,0 +1,44 @@
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+@media (min-width: 768px) {
+  .new-input {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .font {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 386px) {
+  .font {
+    font-size: 18px;
+  }
+}
+.icon {
+  font-size: 40px;
+}
+@media (max-width: 530px) {
+  .icon {
+    font-size: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .icon {
+    font-size: 20px;
+  }
+}
+#Map img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 476px) {
+  footer .lead {
+    font-size: 14px;
+  }
+}
